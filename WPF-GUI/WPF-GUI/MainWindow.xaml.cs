@@ -24,5 +24,9 @@ namespace WPF_GUI
         {
             InitializeComponent();
         }
+        public void test()
+        {
+
+        }
     }
 }
