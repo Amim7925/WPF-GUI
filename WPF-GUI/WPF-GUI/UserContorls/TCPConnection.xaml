@@ -10,9 +10,9 @@
         <StackPanel Margin="20 50">
             <Label Content="IP Adress :"></Label>
             <TextBox x:Name="txtUserName" Height="25" Margin="5 0 0 0" ></TextBox>
-            <Label Content="Port Number :"></Label>
+            <Label Content="Port Number :" Margin="0 15 0 0"></Label>
             <TextBox x:Name="txtPortNumber" Height="25" Margin="5 0 0 0" ></TextBox>
-            <Button Content="Save" Margin="0 25" Width="150" Height="30"></Button>
+            <Button Content="Save" Margin="0 30" Width="150" Height="30"></Button>
         </StackPanel>
     </Grid>
 </UserControl>

@@ -4,6 +4,7 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:WPF_GUI.UserContorls"
+             xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="500" Background="#fff">
     <Grid>
@@ -16,13 +17,22 @@
                 <ColumnDefinition/>
                 <ColumnDefinition/>
             </Grid.ColumnDefinitions>
-            <StackPanel  Grid.Column="0" Margin="15">
-                <TextBox x:Name="txtSearch"  Height="25" Margin="5 27 10 0"></TextBox>
+            <StackPanel  Grid.Column="0" Orientation="Horizontal" Margin="15">
+                
+                <TextBox x:Name="txtSearch" Style="{x:Null}"  Background="#FFE0E0E0"  Height="25" Width="180" BorderBrush="{x:Null}">
+                    <TextBox.Resources>
+                        <Style TargetType="{x:Type Border}">
+                            <Setter Property="CornerRadius" Value="8"/>
+                        </Style>
+                    </TextBox.Resources>
+                </TextBox>
+                <Button Style="{StaticResource MaterialDesignFloatingActionMiniAccentButton}" Height="28" Width="28" Background="#FF2196F3" Margin="-20 0 0 0" ToolTip="Search" BorderBrush="{x:Null}">
+                    <materialDesign:PackIcon Kind="Search" Foreground="#FFFFFDFD"/>
+                </Button>
             </StackPanel>
-            <Button Grid.Column="1" Content="Search" Margin="33 40 35 20"></Button>
 
         </Grid>
-        <ListView Grid.Row="1">
+        <ListView Grid.Row="1" Background="LightGray">
 
         </ListView>
 
