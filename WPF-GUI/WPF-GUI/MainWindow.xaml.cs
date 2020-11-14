@@ -28,5 +28,15 @@ namespace WPF_GUI
         {
             //asdacvarsadc
         }
+
+        private void btnpower_Click(object sender, RoutedEventArgs e)
+        {
+            Application.Current.Shutdown();
+        }
+
+        private void btnMinimize_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
