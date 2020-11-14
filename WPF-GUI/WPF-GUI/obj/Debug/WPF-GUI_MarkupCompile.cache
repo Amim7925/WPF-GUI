@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\PRH\Source\Repos\WPF-GUI\WPF-GUI\WPF-GUI\obj\Debug\
+F:\repos\projects\WPF-GUI\WPF-GUI\WPF-GUI\obj\Debug\
 WPF_GUI
 none
 false
 DEBUG;TRACE
-C:\Users\PRH\Source\Repos\WPF-GUI\WPF-GUI\WPF-GUI\App.xaml
-3869758777
+F:\repos\projects\WPF-GUI\WPF-GUI\WPF-GUI\App.xaml
+71685251020
 
-7-1827158075
-17936419757
-GaugePro.xaml;Guages\Guage.xaml;MainWindow.xaml;
+111858242596
+151156492991
+login.xaml;MainWindow.xaml;UserContorls\AbouUs.xaml;UserContorls\CanbusConnection.xaml;UserContorls\SearchCyclePage.xaml;UserContorls\TCPConnection.xaml;UserContorls\UserPage.xaml;
 
 False
 
