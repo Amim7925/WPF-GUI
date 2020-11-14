@@ -26,7 +26,7 @@ namespace WPF_GUI
         }
         public void test()
         {
-
+            MessageBox.Show("ALLO");
         }
     }
 }
