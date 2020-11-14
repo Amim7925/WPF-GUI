@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 F:\repos\projects\WPF-GUI\WPF-GUI\WPF-GUI\App.xaml
-11151548125
+6-1039049163
 
-6-1011830760
+112074944016
 13-1505183044
-MainWindow.xaml;
+MainWindow.xaml;UserContorls\AbouUs.xaml;UserContorls\CanbusConnection.xaml;UserContorls\SearchCyclePage.xaml;UserContorls\TCPConnection.xaml;UserContorls\UserPage.xaml;
 
 True
 

@@ -55,6 +55,21 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="UserContorls\AbouUs.xaml.cs">
+      <DependentUpon>AbouUs.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserContorls\CanbusConnection.xaml.cs">
+      <DependentUpon>CanbusConnection.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserContorls\SearchCyclePage.xaml.cs">
+      <DependentUpon>SearchCyclePage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserContorls\TCPConnection.xaml.cs">
+      <DependentUpon>TCPConnection.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserContorls\UserPage.xaml.cs">
+      <DependentUpon>UserPage.xaml</DependentUpon>
+    </Compile>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -67,6 +82,26 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="UserContorls\AbouUs.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UserContorls\CanbusConnection.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UserContorls\SearchCyclePage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UserContorls\TCPConnection.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UserContorls\UserPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs">
