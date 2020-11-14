@@ -29,3 +29,5 @@ C:\Users\PRH\Source\Repos\WPF-GUI\WPF-GUI\WPF-GUI\obj\Debug\WPF-GUI.csproj.CoreC
 C:\Users\PRH\Source\Repos\WPF-GUI\WPF-GUI\WPF-GUI\obj\Debug\WPF-GUI.csproj.CopyComplete
 C:\Users\PRH\Source\Repos\WPF-GUI\WPF-GUI\WPF-GUI\obj\Debug\WPF-GUI.exe
 C:\Users\PRH\Source\Repos\WPF-GUI\WPF-GUI\WPF-GUI\obj\Debug\WPF-GUI.pdb
+C:\Users\PRH\Source\Repos\WPF-GUI\WPF-GUI\WPF-GUI\obj\Debug\GaugePro.g.cs
+C:\Users\PRH\Source\Repos\WPF-GUI\WPF-GUI\WPF-GUI\obj\Debug\GaugePro.baml
