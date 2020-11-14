@@ -5,8 +5,28 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WPF_GUI"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="760" Width="1280" AllowsTransparency="True" WindowStyle="None">
     <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="40"/>
+            <RowDefinition Height="43*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="120.8"/>
+            <ColumnDefinition Width="514*"/>
+            <ColumnDefinition Width="165*"/>
+        </Grid.ColumnDefinitions>
+
+        <Grid x:Name="TiltleBar" Grid.ColumnSpan="3">
+            
+            
+            
+            
+        </Grid>
+        
+        
+        
+        
         
     </Grid>
 </Window>
